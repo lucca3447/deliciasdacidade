@@ -4,7 +4,7 @@ API RESTful para gerenciamento de cantina escolar, construída com **FastAPI + S
 Segue a arquitetura em camadas **Router → Service → Repository**.
 
 ##  Estrutura de Pastas
-
+```
 app/
 ├── routers/          # Controladores (Endpoints)
 ├── services/         # Regras de Negócio
@@ -13,8 +13,7 @@ app/
 ├── schemas/          # Validação de Dados (Pydantic / DTOs)
 ├── core/             # Configurações globais e Segurança (ou config/)
 └── main.py           # Ponto de entrada da aplicação
-
-
+```
 ##  Fluxo de uma Requisição
 
 ```
